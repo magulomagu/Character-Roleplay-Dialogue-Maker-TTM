@@ -93,6 +93,20 @@ pnpm test:coverage
 2. **コンテンツ生成**: キャラクターの性格に基づいたスタイルレスな応答を生成
 3. **スタイル適用**: キャラクターの話し方スタイルを応答に適用
 
+## Vercelへのデプロイ
+
+1. GitHubリポジトリをVercelに接続
+2. 環境変数の設定:
+   - Vercelダッシュボード → Settings → Environment Variables
+   - `GEMINI_API_KEY` を追加し、Google Gemini APIキーを設定
+3. デプロイの実行
+
+### 環境変数の設定
+
+| 変数名 | 説明 | 必須 |
+|--------|------|------|
+| `GEMINI_API_KEY` | Google Gemini APIキー | ✅ |
+
 ## ライセンス
 
 このプロジェクトはプライベートです。
