@@ -1,0 +1,6 @@
+{
+  "name": "キャラクターなりきり対話メーカー (TTM)",
+  "description": "記事で紹介されたTest-Time-Matching（TTM）手法に基づき、LLMがキャラクターになりきって対話するアプリケーション。性格、記憶、話し方を分離し、3ステップで応答を生成することで、より自然なキャラクターを再現します。",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
